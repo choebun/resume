@@ -18,28 +18,28 @@
   .head_intro{
     height: 200px;
     border-bottom: solid 2px;
-    
+  
   }
   .head_intro_top{
-    height: 30%;
+    display: flex;
+    align-items: center; /* vertical: flex-start, flex-end, center */
+    justify-content: center; /* horizontal: flex-start, flex-end, center, space-around, space-between */
+    padding: 16px 24px; /* y x */
   }
   .head_intro_top h2{
-    margin-top:0px;
     background-color:green;
-    vertical-align: middle;
     font-size: 30px;
-    display: inline-block;
-    text-align: center;
-    height: 100%;
-    
-  }
-  .head_intro_top span{
-    vertical-align: middle;
-    text-align: center;
+    text-align: center;    
   }
   .head_intro_buttom{
-    height: 70%;
   }
+
+
+
+
+
+
+
   .buttomskill{
     height: 1800px;
     box-sizing: border-box;
@@ -57,7 +57,9 @@
 <div class="resume">
   <div class="head_intro">
     <div class="head_intro_top">
-      <h2>徐振皓</h2><span>Ethan</span>
+      <h2>Cheng Hao Hsu</h2>
+      <div style="width: 20px"></div>
+      <div>Ethan</div>
     </div>
     <div class="head_intro_buttom">head_intro buttom</div>
   </div>
